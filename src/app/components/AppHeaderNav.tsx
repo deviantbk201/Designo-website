@@ -4,7 +4,7 @@ export default function AppHeaderNav() {
   return (
     <ul className="flex gap-8 ">
       <li>
-        <LinkUi color="foreground">
+        <LinkUi>
           <Link href="/about">
             <p className="text-md uppercase"> Our Company</p>
           </Link>
@@ -17,13 +17,7 @@ export default function AppHeaderNav() {
           </Link>
         </LinkUi>
       </li>
-      <li>
-        <LinkUi color="foreground">
-          <Link href="/contact">
-            <p className="text-md uppercase"> Contact</p>
-          </Link>
-        </LinkUi>
-      </li>
+      <li></li>
     </ul>
   );
 }

@@ -5,7 +5,7 @@ import GraphicDesignPrjectCards from "../components/graphic-design/GraphicDesign
 
 export default function GraphicDesignPage() {
   return (
-    <section className="grid grid-rows-[20rem,auto,10rem] gap-y-12 ">
+    <section className="grid grid-rows-[20rem,auto,20rem] gap-y-12 ">
       <OrangeCapsule>
         <div className="h-full flex flex-col tracking-widest items-center gap-4 justify-center">
           <Heading as="h1" styles="capitalize text-white ">

@@ -4,7 +4,7 @@ import FeatureCard from "../FeatureCard";
 
 export default function HomepageFeatures() {
   return (
-    <section className="lg:grid lg:grid-cols-3 lg:py-16 lg:gap-x-4 grid-rows-[repeat(3,40vw)] lg:gap-y-4 lg:divide-y-0 flex flex-col gap-4 divide-y-1 divide-peach  ">
+    <section className="lg:grid lg:grid-cols-3 lg:py-16 lg:gap-x-4 lg:grid-rows-1 grid-rows-[repeat(3,40vw)] lg:gap-y-4 lg:divide-y-0 flex flex-col gap-4 divide-y-1 divide-peach  ">
       <FeatureCard
         imageSrc="/home/desktop/illustration-friendly.svg"
         imageAlt="two people holding up a signboard that says hi "

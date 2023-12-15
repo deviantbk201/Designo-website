@@ -5,7 +5,7 @@ import WebDesignProjectCards from "../components/web-design comp/WebDesignProjec
 
 export default function WebDesignPage() {
   return (
-    <section className="grid lg:grid-rows-[20rem,auto,10rem]  grid-rows-[20rem,auto,20rem]  gap-y-12 ">
+    <section className="grid lg:grid-rows-[20rem,auto,20rem]  grid-rows-[20rem,auto,30rem]  gap-y-12 ">
       <OrangeCapsule>
         <div className="h-full flex flex-col tracking-widest items-center gap-4 justify-center">
           <Heading as="h2" styles="capitalize text-white ">

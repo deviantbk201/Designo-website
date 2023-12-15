@@ -58,8 +58,9 @@ export default function LocationSection() {
       {LocationData.map((loc) => {
         if (loc.dir === "ltr")
           return (
-            <LocationsCard direction={loc.dir} key={loc.id}>
+            <LocationsCard direction="ltr" key={loc.id}>
               <LocationContactCard
+                direction="ltr"
                 address={loc.address}
                 contact={loc.contact}
                 title={loc.title}
@@ -72,14 +73,13 @@ export default function LocationSection() {
           );
         if (loc.dir === "rtl")
           return (
-            <LocationsCard direction={loc.dir} key={loc.id}>
-              <div className="col-start-1 col-end-2 row-start-1 row-end-[-1]">
-                <LocationMapBox
-                  imageSrc={loc.mapImage}
-                  imageAlt="map of loaction"
-                />
-              </div>
+            <LocationsCard direction="rtl" key={loc.id}>
+              <LocationMapBox
+                imageSrc={loc.mapImage}
+                imageAlt="map of loaction"
+              />
               <LocationContactCard
+                direction="rtl"
                 address={loc.address}
                 contact={loc.contact}
                 title={loc.title}

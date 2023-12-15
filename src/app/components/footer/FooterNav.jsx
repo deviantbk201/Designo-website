@@ -2,7 +2,7 @@ import Link from "next/link";
 import Logo from "../Logo";
 export default function FooterNav() {
   return (
-    <nav className="text-slate-500 flex justify-between">
+    <nav className="text-slate-500 flex  lg:flex-row flex-col items-center gap-4  justify-between">
       <Logo imageSource="/shared/desktop/logo-light.png" />
 
       <ul className="flex gap-8">

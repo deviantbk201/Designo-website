@@ -9,6 +9,10 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      screens: {
+        tablet: "640px",
+        // => @media (min-width: 640px) { ... }
+      },
       colors: {
         peach: "#E7816B",
         lightPeach: "#FFAd9b",

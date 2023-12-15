@@ -2,6 +2,7 @@ import Heading from "../Heading";
 
 type LocationContactCardPropsType = {
   title: string;
+  direction: string;
   address: {
     office: string;
     street: string;
@@ -17,10 +18,15 @@ export default function LocationContactCard({
   title,
   contact,
   address,
+  direction,
 }: LocationContactCardPropsType) {
   return (
     <div
-      className={`flex items-center justify-center  bg-lightestPeach rounded-2xl lg:row-start-1 row-start-2 row-end-[-1] py-4 `}
+      className={`flex items-center justify-center  bg-lightestPeach rounded-2xl lg:row-start-1 row-start-2 row-end-[-1] py-4 
+    ${direction === "ltr" && "lg:col-start-1 lg:col-end-2"}
+    ${direction === "rtl" && "lg:col-start-2 lg:col-end-[-1]"}
+
+      `}
     >
       <div className="flex flex-col gap-4">
         <Heading as="h2" styles="text-peach text-center lg:text-start">

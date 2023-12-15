@@ -5,7 +5,7 @@ import AppDesignProjectCards from "../components/app-design/AppDesignProjectCard
 
 export default function AppDesignPage() {
   return (
-    <section className="grid grid-rows-[20rem,auto,10rem]">
+    <section className="grid grid-rows-[20rem_auto_10rem] gap-y-6 py-12">
       <OrangeCapsule>
         <div className="h-full flex flex-col tracking-widest items-center gap-4 justify-center">
           <Heading as="h2" styles="capitalize text-white ">

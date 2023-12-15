@@ -13,14 +13,13 @@ export default function FooterLocationCard() {
       mail: "contact@designo.central",
     },
   };
-
   return (
     <div
-      className={`flex items-center justify-center  text-slate-500 rounded-2xl `}
+      className={`flex lg:flex-row flex-col items-center justify-center text-slate-500 rounded-2xl `}
     >
       <div className="flex flex-col gap-4">
         <div className="flex gap-12 items-center">
-          <div className="flex gap-32">
+          <div className="flex lg:flex-row flex-col gap-12 lg:gap-32">
             <address>
               <span className="block font-bold"> Designo Central Office</span>
               <span className="block">19 vancouver street</span>
